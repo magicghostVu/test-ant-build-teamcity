@@ -20,7 +20,7 @@
     </taskdef>
 
     <target name="test-run">
-        <my_task message="${build.mode}"/>
+        <my_task message="${env.gg}"/>
     </target>
 
     <target name="test_pass_params">
