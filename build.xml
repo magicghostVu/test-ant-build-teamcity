@@ -23,4 +23,8 @@
         <my_task message="This work"/>
     </target>
 
+    <target name="test_pass_params">
+        <echo>Param had been passed ${build_mode}</echo>
+    </target>
+
 </project>
