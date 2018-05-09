@@ -1,5 +1,6 @@
 {
   "list_ext_encrypt": ["json", "txt", "js", "xml"],
   "list_ext_ignore": ["zip", "rar", "mp3", "ogg", "ttf", "plist"],
-  "header_signature": [153, 71, 83, 78]
+  "header_signature": [153, 71, 83, 78],
+  "attr_sample":"98432749875"
 }
