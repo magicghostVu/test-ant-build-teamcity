@@ -24,7 +24,7 @@
     </target>
 
     <target name="test_pass_params">
-        <echo>Param had been passed ${build.mode}</echo>
+        <echo>Param had been passed ${build.vcs.number.1}</echo>
     </target>
 
 </project>
