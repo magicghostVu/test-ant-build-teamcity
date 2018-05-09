@@ -20,11 +20,11 @@
     </taskdef>
 
     <target name="test-run">
-        <my_task message="${build_mode}"/>
+        <my_task message="${build.mode}"/>
     </target>
 
     <target name="test_pass_params">
-        <echo>Param had been passed ${build_mode}</echo>
+        <echo>Param had been passed ${build.mode}</echo>
     </target>
 
 </project>
