@@ -3,6 +3,10 @@
 
     <property file="build.properties"/>
 
+    <property name="build_mode" value="%build_mode%"/>
+    <property name="my.country" value="%my.country%"/>
+
+
     <patternset id="library.file">
         <include name="*.jar"/>
     </patternset>
@@ -20,11 +24,11 @@
     </taskdef>
 
     <target name="test-run">
-        <my_task message="${env.gg}"/>
+        <my_task country="${my.country}" buildmode="${build_mode}"/>
     </target>
 
-    <target name="test_pass_params">
+    <!--<target name="test_pass_params">
         <echo>Param had been passed ${build.vcs.number.1}</echo>
-    </target>
+    </target>-->
 
 </project>
